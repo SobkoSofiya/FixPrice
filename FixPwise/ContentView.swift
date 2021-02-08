@@ -17,8 +17,17 @@ struct ContentView: View {
                 ZStack{
             Color("gren")
             VStack{
+                ZStack{
+                    HStack{
+                        Button(action: {}, label: {
+                            Image("arr").resizable().frame(width: 30, height: 30, alignment: .center).padding().foregroundColor(.white)
+                        })
+                     
+                        Spacer()
+                    }.padding(.top,40)
                 Text("Вход в личный кабинет").padding(.top,40)
                     .padding().foregroundColor(.white).font(.custom("", size: 16))
+                }
             }
                 }.frame(width: UIScreen.main.bounds.width, height: 100, alignment: .center)
             ZStack{
@@ -59,13 +68,13 @@ struct bottomMenu:View {
     var body: some View{
         ZStack(alignment:.top){
             Color("greyy")
-            HStack(spacing:50){
+            HStack(spacing:45){
                 Button(action: {
                     Swift22 = 1
                 }, label: {
                     VStack(spacing:4){
                         Image("home").resizable().frame(width: 35, height: 35, alignment: .center).foregroundColor(.gray)
-                        Text("Главная").font(.custom("", size: 12)).foregroundColor(.gray)
+                        Text("Главная").font(.custom("", size: 12)).foregroundColor(Swift22 == 1 ?   .blue : .gray)
                     }
                 })
                 Button(action: {
@@ -73,7 +82,7 @@ struct bottomMenu:View {
                 }, label: {
                     VStack(spacing:4){
                         Image("menu").resizable().frame(width: 35, height: 35, alignment: .center).foregroundColor(.gray)
-                        Text("Каталог").font(.custom("", size: 12)).foregroundColor(.gray)
+                        Text("Каталог").font(.custom("", size: 12)).foregroundColor(Swift22 == 2 ?   .blue : .gray)
                     }
                     
                 })
@@ -83,7 +92,7 @@ struct bottomMenu:View {
                 }, label: {
                     VStack(spacing:4){
                         Image("locat").resizable().frame(width: 35, height: 35, alignment: .center).foregroundColor(.gray)
-                        Text("Магазины").font(.custom("", size: 12)).foregroundColor(.gray)
+                        Text("Магазины").font(.custom("", size: 12)).foregroundColor(Swift22 == 3 ?   .blue : .gray)
                     }
                     
                 })
@@ -93,7 +102,7 @@ struct bottomMenu:View {
                 }, label: {
                     VStack(spacing:4){
                         Image("pro").resizable().frame(width: 30, height: 35, alignment: .center).foregroundColor(.gray)
-                        Text("Профиль").font(.custom("", size: 12)).foregroundColor(.gray)
+                        Text("Профиль").font(.custom("", size: 12)).foregroundColor(Swift22 == 0 ?   .blue : .gray)
                     }
                     
                 })
