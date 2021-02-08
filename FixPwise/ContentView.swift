@@ -71,46 +71,46 @@ struct bottomMenu:View {
     var body: some View{
         ZStack(alignment:.top){
             Color("greyy")
-            HStack(spacing:45){
+            HStack(spacing:0){
                 Button(action: {
                     Swift22 = 1
                 }, label: {
                     VStack(spacing:4){
-                        Image("home").resizable().frame(width: 35, height: 35, alignment: .center).foregroundColor(.gray)
-                        Text("Главная").font(.custom("", size: 12)).foregroundColor(Swift22 == 1 ?   .blue : .gray)
+                        Image("home").resizable().frame(width: 20, height: 20, alignment: .center).foregroundColor(.gray)
+                        Text("Главная").font(.custom("", size: 14)).foregroundColor(Swift22 == 1 ?   .blue : .gray)
                     }
-                })
+                }).frame(width: UIScreen.main.bounds.width/4, height: 34, alignment: .center)
                 Button(action: {
                     Swift22 = 2
                 }, label: {
                     VStack(spacing:4){
-                        Image("menu").resizable().frame(width: 35, height: 35, alignment: .center).foregroundColor(.gray)
-                        Text("Каталог").font(.custom("", size: 12)).foregroundColor(Swift22 == 2 ?   .blue : .gray)
+                        Image("menu").resizable().frame(width: 20, height: 20, alignment: .center).foregroundColor(.gray)
+                        Text("Каталог").font(.custom("", size: 14)).foregroundColor(Swift22 == 2 ?   .blue : .gray)
                     }
                     
-                })
+                }).frame(width: UIScreen.main.bounds.width/4, height: 34, alignment: .center)
               
                 Button(action: {
                     Swift22 = 3
                 }, label: {
                     VStack(spacing:4){
-                        Image("locat").resizable().frame(width: 35, height: 35, alignment: .center).foregroundColor(.gray)
-                        Text("Магазины").font(.custom("", size: 12)).foregroundColor(Swift22 == 3 ?   .blue : .gray)
+                        Image("locat").resizable().frame(width: 20, height: 20, alignment: .center).foregroundColor(.gray)
+                        Text("Магазины").font(.custom("", size: 14)).foregroundColor(Swift22 == 3 || Swift22 == 5 ?   .blue : .gray)
                     }
                     
-                })
+                }).frame(width: UIScreen.main.bounds.width/4, height: 34, alignment: .center)
               
                 Button(action: {
                     Swift22 = 0
                 }, label: {
                     VStack(spacing:4){
-                        Image("pro").resizable().frame(width: 30, height: 35, alignment: .center).foregroundColor(.gray)
-                        Text("Профиль").font(.custom("", size: 12)).foregroundColor(Swift22 == 0 ?   .blue : .gray)
+                        Image("pro").resizable().frame(width: 15, height: 20, alignment: .center).foregroundColor(.gray)
+                        Text("Профиль").font(.custom("", size: 14)).foregroundColor(Swift22 == 0 ?   .blue : .gray)
                     }
                     
-                })
+                }).frame(width: UIScreen.main.bounds.width/4, height: 34, alignment: .center)
                
-            }.padding(7)
+            }.padding(15)
         }.frame(width: UIScreen.main.bounds.width, height: 100, alignment: .center).border(Color.black.opacity(0.1), width: 1
         )
     }

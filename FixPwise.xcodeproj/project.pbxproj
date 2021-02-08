@@ -15,6 +15,12 @@
 		C317EAF025D13E1F00B2A43A /* FixPwiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317EAEF25D13E1F00B2A43A /* FixPwiseUITests.swift */; };
 		C317EB0625D13F3600B2A43A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C317EB0525D13F3600B2A43A /* Launch Screen.storyboard */; };
 		C317EB0E25D1444700B2A43A /* Swift2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317EB0D25D1444700B2A43A /* Swift2.swift */; };
+		C317EB2625D14F6D00B2A43A /* catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317EB2525D14F6D00B2A43A /* catalog.swift */; };
+		C317EB2B25D14F9D00B2A43A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317EB2A25D14F9D00B2A43A /* Model.swift */; };
+		C317EB3025D14FEA00B2A43A /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317EB2F25D14FEA00B2A43A /* ModelView.swift */; };
+		C317EB3525D1629F00B2A43A /* CustomTextbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317EB3425D1629F00B2A43A /* CustomTextbar.swift */; };
+		C317EB3A25D164FD00B2A43A /* Mape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317EB3925D164FD00B2A43A /* Mape.swift */; };
+		C317EB4225D16CAE00B2A43A /* Mainn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317EB4125D16CAE00B2A43A /* Mainn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		C317EAF125D13E1F00B2A43A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C317EB0525D13F3600B2A43A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C317EB0D25D1444700B2A43A /* Swift2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift2.swift; sourceTree = "<group>"; };
+		C317EB2525D14F6D00B2A43A /* catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catalog.swift; sourceTree = "<group>"; };
+		C317EB2A25D14F9D00B2A43A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C317EB2F25D14FEA00B2A43A /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
+		C317EB3425D1629F00B2A43A /* CustomTextbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextbar.swift; sourceTree = "<group>"; };
+		C317EB3925D164FD00B2A43A /* Mape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mape.swift; sourceTree = "<group>"; };
+		C317EB4125D16CAE00B2A43A /* Mainn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mainn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +113,13 @@
 			children = (
 				C317EAD225D13E1C00B2A43A /* FixPwiseApp.swift */,
 				C317EAD425D13E1C00B2A43A /* ContentView.swift */,
+				C317EB3425D1629F00B2A43A /* CustomTextbar.swift */,
+				C317EB2A25D14F9D00B2A43A /* Model.swift */,
+				C317EB2F25D14FEA00B2A43A /* ModelView.swift */,
 				C317EB0D25D1444700B2A43A /* Swift2.swift */,
+				C317EB2525D14F6D00B2A43A /* catalog.swift */,
+				C317EB3925D164FD00B2A43A /* Mape.swift */,
+				C317EB4125D16CAE00B2A43A /* Mainn.swift */,
 				C317EAD625D13E1E00B2A43A /* Assets.xcassets */,
 				C317EADB25D13E1E00B2A43A /* Info.plist */,
 				C317EAD825D13E1E00B2A43A /* Preview Content */,
@@ -266,9 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C317EB3A25D164FD00B2A43A /* Mape.swift in Sources */,
+				C317EB3025D14FEA00B2A43A /* ModelView.swift in Sources */,
+				C317EB3525D1629F00B2A43A /* CustomTextbar.swift in Sources */,
+				C317EB2B25D14F9D00B2A43A /* Model.swift in Sources */,
+				C317EB4225D16CAE00B2A43A /* Mainn.swift in Sources */,
 				C317EB0E25D1444700B2A43A /* Swift2.swift in Sources */,
 				C317EAD525D13E1C00B2A43A /* ContentView.swift in Sources */,
 				C317EAD325D13E1C00B2A43A /* FixPwiseApp.swift in Sources */,
+				C317EB2625D14F6D00B2A43A /* catalog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

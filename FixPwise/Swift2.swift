@@ -13,15 +13,18 @@ struct Swift2: View {
         if Swift22 == 0{
             ContentView(Swift22: $Swift22)
         } else if Swift22 == 1{
-            Main(Swift22: $Swift22)
+            Mainn(Swift22: $Swift22)
         }else if Swift22 == 2{
-            catal(Swift22: $Swift22)
+            Catalog(Swift22: $Swift22)
         }
         else if Swift22 == 3{
-            magaz(Swift22: $Swift22)
+            Mape(Swift22: $Swift22)
         }
         else if Swift22 == 4{
-            
+           
+        }
+        else if Swift22 == 5{
+            MapStrucrt(Swift22: $Swift22)
         }
     }
 }
