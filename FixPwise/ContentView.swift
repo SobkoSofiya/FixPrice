@@ -38,7 +38,10 @@ struct ContentView: View {
                         Rectangle().frame(width: UIScreen.main.bounds.width-29, height: 1.5, alignment: .center).foregroundColor(.gray).opacity(0.3)
                     }
                     VStack(spacing:18){
-                    TextField("Пароль", text: $pass).frame(width: UIScreen.main.bounds.width-29, height: 1, alignment: .center)
+                        HStack(spacing:0){
+                    TextField("Пароль", text: $pass).frame(width: UIScreen.main.bounds.width-49, height: 1, alignment: .center)
+                            Image("eye").resizable().frame(width: 23, height: 20, alignment: .center)
+                        }.frame(width: UIScreen.main.bounds.width-29, height: 1, alignment: .center)
                         Rectangle().frame(width: UIScreen.main.bounds.width-29, height: 1.5, alignment: .center).foregroundColor(.gray).opacity(0.3)
                     }
                     Button(action: {}, label: {
