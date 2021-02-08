@@ -13,6 +13,8 @@
 		C317EADA25D13E1E00B2A43A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C317EAD925D13E1E00B2A43A /* Preview Assets.xcassets */; };
 		C317EAE525D13E1F00B2A43A /* FixPwiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317EAE425D13E1F00B2A43A /* FixPwiseTests.swift */; };
 		C317EAF025D13E1F00B2A43A /* FixPwiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317EAEF25D13E1F00B2A43A /* FixPwiseUITests.swift */; };
+		C317EB0625D13F3600B2A43A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C317EB0525D13F3600B2A43A /* Launch Screen.storyboard */; };
+		C317EB0E25D1444700B2A43A /* Swift2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317EB0D25D1444700B2A43A /* Swift2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		C317EAEB25D13E1F00B2A43A /* FixPwiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixPwiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C317EAEF25D13E1F00B2A43A /* FixPwiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixPwiseUITests.swift; sourceTree = "<group>"; };
 		C317EAF125D13E1F00B2A43A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C317EB0525D13F3600B2A43A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C317EB0D25D1444700B2A43A /* Swift2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 			children = (
 				C317EAD225D13E1C00B2A43A /* FixPwiseApp.swift */,
 				C317EAD425D13E1C00B2A43A /* ContentView.swift */,
+				C317EB0D25D1444700B2A43A /* Swift2.swift */,
 				C317EAD625D13E1E00B2A43A /* Assets.xcassets */,
 				C317EADB25D13E1E00B2A43A /* Info.plist */,
 				C317EAD825D13E1E00B2A43A /* Preview Content */,
@@ -107,6 +112,7 @@
 		C317EAD825D13E1E00B2A43A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				C317EB0525D13F3600B2A43A /* Launch Screen.storyboard */,
 				C317EAD925D13E1E00B2A43A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -233,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C317EB0625D13F3600B2A43A /* Launch Screen.storyboard in Resources */,
 				C317EADA25D13E1E00B2A43A /* Preview Assets.xcassets in Resources */,
 				C317EAD725D13E1E00B2A43A /* Assets.xcassets in Resources */,
 			);
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C317EB0E25D1444700B2A43A /* Swift2.swift in Sources */,
 				C317EAD525D13E1C00B2A43A /* ContentView.swift in Sources */,
 				C317EAD325D13E1C00B2A43A /* FixPwiseApp.swift in Sources */,
 			);
