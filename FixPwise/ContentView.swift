@@ -118,45 +118,45 @@ struct bottomMenu:View {
 
 
 
-struct Main:View {
-    @Binding var Swift22:Int
-    var body: some View{
-        ZStack{
-            VStack(spacing:0){
-                Text("Главная").font(.custom("", size: 40)).foregroundColor(.black).offset(y: 100)
-                Spacer()
-                bottomMenu(Swift22: $Swift22)
-            }
-        }.edgesIgnoringSafeArea(.all)
-    }
-}
-
-struct catal:View {
-    @Binding var Swift22:Int
-    var body: some View{
-        ZStack{
-            VStack(spacing:0){
-                Text("Каталог").font(.custom("", size: 40)).foregroundColor(.black).offset(y: 100)
-                Spacer()
-                bottomMenu(Swift22: $Swift22)
-            }
-        }.edgesIgnoringSafeArea(.all)
-    }
-}
-
-
-struct magaz:View {
-    @Binding var Swift22:Int
-    var body: some View{
-        ZStack{
-            VStack(spacing:0){
-                Text("Магазины").font(.custom("", size: 40)).foregroundColor(.black).offset(y: 100)
-                Spacer()
-                bottomMenu(Swift22: $Swift22)
-            }
-        }.edgesIgnoringSafeArea(.all)
-    }
-}
-
-
+//struct Main:View {
+//    @Binding var Swift22:Int
+//    var body: some View{
+//        ZStack{
+//            VStack(spacing:0){
+//                Text("Главная").font(.custom("", size: 40)).foregroundColor(.black).offset(y: 100)
+//                Spacer()
+//                bottomMenu(Swift22: $Swift22)
+//            }
+//        }.edgesIgnoringSafeArea(.all)
+//    }
+//}
+//
+//struct catal:View {
+//    @Binding var Swift22:Int
+//    var body: some View{
+//        ZStack{
+//            VStack(spacing:0){
+//                Text("Каталог").font(.custom("", size: 40)).foregroundColor(.black).offset(y: 100)
+//                Spacer()
+//                bottomMenu(Swift22: $Swift22)
+//            }
+//        }.edgesIgnoringSafeArea(.all)
+//    }
+//}
+//
+//
+//struct magaz:View {
+//    @Binding var Swift22:Int
+//    var body: some View{
+//        ZStack{
+//            VStack(spacing:0){
+//                Text("Магазины").font(.custom("", size: 40)).foregroundColor(.black).offset(y: 100)
+//                Spacer()
+//                bottomMenu(Swift22: $Swift22)
+//            }
+//        }.edgesIgnoringSafeArea(.all)
+//    }
+//}
+//
+//
 

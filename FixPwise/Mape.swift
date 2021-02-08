@@ -83,7 +83,7 @@ struct MapStrucrt:View {
                 }.foregroundColor(.white)
                 }.frame(width: UIScreen.main.bounds.width, height: 120, alignment: .center)
         MapView(region: $locDeleg.region, pin: $locDeleg.pin)
-                Spacer()
+               
                 bottomMenu(Swift22: $Swift22)
                 
             }

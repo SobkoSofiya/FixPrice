@@ -99,7 +99,7 @@ struct Mainn: View {
                     }
                 }
                 }
-                Spacer()
+               
                 bottomMenu(Swift22: $Swift22)
                 
                 
@@ -108,8 +108,4 @@ struct Mainn: View {
     }
 }
 
-//struct Mainn_Previews: PreviewProvider {
-//    static var previews: some View {
-//        Mainn()
-//    }
-//}
+//

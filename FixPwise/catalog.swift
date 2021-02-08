@@ -52,7 +52,7 @@ struct Catalog: View {
                         }
                    }
                 }
-                Spacer()
+               
                 bottomMenu(Swift22: $Swift22)
               
                 

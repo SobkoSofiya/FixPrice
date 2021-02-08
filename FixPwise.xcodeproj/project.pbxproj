@@ -112,11 +112,11 @@
 			isa = PBXGroup;
 			children = (
 				C317EAD225D13E1C00B2A43A /* FixPwiseApp.swift */,
-				C317EAD425D13E1C00B2A43A /* ContentView.swift */,
 				C317EB3425D1629F00B2A43A /* CustomTextbar.swift */,
 				C317EB2A25D14F9D00B2A43A /* Model.swift */,
 				C317EB2F25D14FEA00B2A43A /* ModelView.swift */,
 				C317EB0D25D1444700B2A43A /* Swift2.swift */,
+				C317EAD425D13E1C00B2A43A /* ContentView.swift */,
 				C317EB2525D14F6D00B2A43A /* catalog.swift */,
 				C317EB3925D164FD00B2A43A /* Mape.swift */,
 				C317EB4125D16CAE00B2A43A /* Mainn.swift */,
